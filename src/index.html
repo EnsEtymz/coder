@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coder</title>
+  <link href="./css/output.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+ 
+</head>
+
+
+<body>
+ 
+
+
+  <header class="bg-white   text-black font-bold fixed w-full top-0 z-20">
+
+    <!-- Mobil Görünüm İçin Drawer Menü -->
+    <div id="drawerMenu" class="w-56 h-full md:hidden bg-white right-0 fixed z-30 flex flex-col justify-start text-center tracking-wider mt-11 pt-4 ">
+      <button class="hover:bg-laci h-11"><a href="#" class="hover:text-white whitespace-nowrap text-lg">ANA SAYFA</a></button>
+      <button class="hover:bg-laci h-11"><a href="#hakkimizda" class="hover:text-white text-lg">HAKKIMIZDA</a></button>
+      <button class="hover:bg-laci h-11"><a href="#uretim" class="hover:text-white text-lg">ÜRETİM</a></button>
+      <button class="hover:bg-laci h-11"><a href="#projeler" class="hover:text-white text-lg">PROJELER</a></button>
+      <button class="hover:bg-laci h-11"><a href="#haberler" class="hover:text-white text-lg">HABERLER</a></button>
+      <button class="hover:bg-laci h-11"><a href="#iletisim" class="hover:text-white text-lg">İLETİŞİM</a></button>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container mx-auto flex  items-center justify-between space-x-8 lg:space-16 lg:w-992 py-1 ">
+
+      <a href="#"><img src="./images/coder_logo2.png" alt="logo" class=" w-20 lg:w-40 "></a>
+
+      <!--Mobil Görünüm için Buton-->
+      <button id="drawerMenuButton" class="block md:hidden ">
+        <img src="./images/mobile_menu.jpeg" alt="" class="w-10">
+      </button>
+      <!--Menü-->
+      <nav class="hidden md:flex justify-end flex-1 space-x-8">
+        <div class="flex items-center space-x-3 lg:space-x-7">
+          <a href="#" class="hover:text-red-700 transition duration-300 whitespace-nowrap">ANA SAYFA</a>
+          <a href="#hakkimizda" class="hover:text-red-700 transition duration-300">HAKKIMIZDA</a>
+          <a href="#uretim" class="hover:text-red-700 transition duration-300">ÜRETİM</a>
+          <a href="#projeler" class="hover:text-red-700 transition duration-300">PROJELER</a>
+          <a href="#haberler" class="hover:text-red-700 transition duration-300">HABERLER</a>
+          <a href="#iletisim" class="hover:text-red-700 transition duration-300">İLETİŞİM</a>
+
+        </div>
+        <div class="flex items-center space-x-2 lg:space-x-4">
+          <button class="w-10"><img src="./images/tc.png" alt=""></button>
+          <button class="w-10"><img src="./images/ing.jpg" alt=""></button>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+  
+  <!--Page 0 Image Section-->
+  <section class="h-80 lg:h-160 group ">
+    <img src="./images/section_image.jpg" alt="section image" class="h-full w-full object-cover mt-14">
+  </section>
+
+
+  <!--Page 1 Sections HAKKIMIZDA-->
+  <!--Page 1 Section 1-->
+  <section id="hakkimizda" class="lg:py-20 flex lg:flex-row flex-col lg:space-x-40 justify-start">
+
+  <div class="flex  lg:w-36 h-6 lg:h-44 lg:border-b   border-black relative justify-center lg:justify-end md:mt-20">
+      <div class=" flex flex-col h-full lg:w-1/2 absolute container items-center">
+        <div class="flex lg:h-5/6  relative justify-center lg:items-center">
+          <p  class="absolute lg:transform lg:-rotate-90 lg:text-4xl tracking-wider lg:font-light font-bold md:mb-20  ">HAKKIMIZDA
+          </p>
+
+        </div>
+
+        <div class=" h-1/6 w-1/2 hidden lg:flex text-sm justify-center items-end">
+          <span>01</span>
+        </div>
+      </div>
+    </div>
+    <div class="md:flex w-full lg:w-3/5 h-96  py-1 md:py-10 lg:py-0 md:px-2 ">
+      <div class="  md:w-11/20 h-1/2 md:h-full px-2 py-1 lg:py-0 md:pr-12 overflow-hidden  ">
+
+        <p class="text-xs md:text-lg/3 font-bold md:font-normal lg:text-2xl ">Yenilendik, artık daha güçlüyüz...</p>
+        <p class=" text-laci md:text-4xl lg:text-2xl xl:text-4xl  font-bold tracking-wider ">Hakkımızda_</p>
+        <p class="mt-0 md:mt-7 lg:mt-5 text-xs/3 xl:text-sm italic">Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Omnis facilis tempora, ullam perferendis ea laborum.</p>
+        <p class="mt-0 md:mt-4 lg:mt-3 text-xs/3 xl:text-xs/4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Facilis maxime necessitatibus est consequatur totam natus, a quas magni suscipit, exercitationem eum quasi
+          adipisci excepturi veniam!</p>
+        <p class="mt-0 md:mt-5 lg:mt-5 text-xs/3 xl:text-xs/4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Tenetur laborum eius non, soluta natus omnis pariatur? Aut praesentium optio autem facilis nisi ut laboriosam
+          totam.</p>
+        <p class="mt-0 md:mt-4 lg:mt-3 text-xs/3 xl:text-xs/4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Corporis est quibusdam vero ad beatae pariatur!</p>
+      </div>
+      <div class=" md:w-9/20 h-1/2 md:h-full lg:h-4/5 bg-gray-200 mx-1 md:mx-0"></div>
+    </div>
+  </section>
+  <!--Page 1 Section 2-->
+  <section class="bg-gray-200 sm:py-6 lg:py-8 ">
+    <div class="flex w-full md:w-1/3 mx-auto text-center text-xs md:text-sm mb-6">
+      <p class=" flex justify-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quo voluptatum
+        voluptates quod? Tempora quam sint officiis eveniet architecto animi, provident laudantium corrupti? Iste quas
+        unde corrupti!</p>
+    </div>
+    <form>
+      <div class=" flex w-full md:w-1/3 mx-auto h-10">
+        <input type="text"
+          class="w-5/6 h-full p-2 bg-transparent  focus:bg-gray-50 hover:bg-gray-50  placeholder:text-slate-400 border border-slate-400 "
+          placeholder="ARAMA YAP">
+        <button class="w-1/6 h-full bg-laci text-white hover:bg-blue-600">ARA</button>
+      </div>
+    </form>
+  </section>
+
+
+
+  <!--Page 2 Section ÜRETİM-->
+
+  <section id="uretim" class="lg:py-44 flex lg:flex-row flex-col lg:space-x-14 justify-start">
+
+    <div class="flex  lg:w-36 h-6 lg:h-44 lg:border-b border-black relative justify-center lg:justify-end">
+      <div class=" flex flex-col h-full lg:w-1/2 absolute container items-center">
+        <div class="flex lg:h-5/6  relative justify-center lg:items-center">
+          <p  class="absolute lg:transform lg:-rotate-90 lg:text-4xl tracking-wider lg:font-light font-bold ">ÜRETİM
+          </p>
+
+        </div>
+
+        <div class=" h-1/6 w-1/2 hidden lg:flex text-sm justify-center items-end">
+          <span>02</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="md:flex w-full lg:w-3/4 md:h-120 h-160 md:pl-10 py-1 md:py-4 lg:py-0 md:pr-2 md:space-x-8 ">
+
+     
+
+
+
+      <!-- 1 -->
+      <div class="flex flex-col md:flex-row w-full md:h-full  md:mx-0 ">
+      <div class=" flex md:flex-col-reverse flex-row h-12 items-center md:h-80 md:w-20 w-full lg:w-40 justify-between py-2 px-2 md:px-0 text-xs xl:text-sm" >
+        <button class="md:w-full md:h-1/6 font-bold md:transform md:-rotate-90 hover:text-laci"><span>OFİS</span></button>
+        <button class="md:w-full md:h-1/6 font-bold md:transform md:-rotate-90 hover:text-laci md:pr-9"><span>TASARIM</span></button>
+        <button class="md:w-full md:h-1/6 font-bold md:transform md:-rotate-90 hover:text-laci"><span>SERTİFİKALAR</span></button>
+        <button class="md:w-full md:h-1/6 font-bold md:transform md:-rotate-90 hover:text-laci"><span>ÜRETİM</span></button>
+      </div>
+
+      <div class="flex-col w-full">
+        <div class="w-full  h-48 md:h-72 lg:h-72 xl:h-80 bg-gray-200 relative z-10">
+          <div class="absolute bottom-0 right-0 w-1/4 md:w-1/3 h-6 md:h-12 bg-white text-center flex flex-col justify-end">
+            <p class="md:text-2xl bottom-0"><span id="imageNo" class="font-bold">01</span><span> / 05</span></p>
+          </div>
+        </div>
+<div class="w-full h-20 mt-4 flex flex-row justify-between">
+  <div id="image1" class=" w-1/6 h-full md:h-2/3 xl:h-full bg-gray-200 hover:bg-laci cursor-pointer"></div>
+  <div id="image2" class=" w-1/6 h-full md:h-2/3 xl:h-full bg-gray-200 hover:bg-laci cursor-pointer"></div>
+  <div id="image3" class=" w-1/6 h-full md:h-2/3 xl:h-full bg-gray-200 hover:bg-laci cursor-pointer"></div>
+  <div id="image4" class=" w-1/6 h-full md:h-2/3 xl:h-full bg-gray-200 hover:bg-laci cursor-pointer"></div>
+  <div id="image5" class=" w-1/6 h-full md:h-2/3 xl:h-full bg-gray-200 hover:bg-laci cursor-pointer"></div>
+</div>
+      </div>
+    </div>
+      <!-- 2 -->
+      <div class="flex w-full ">
+        <div class="w-full   md:h-full px-2 md:pt-12 md:py-2 lg:py-0    ">
+          <p class="text-sm/3 md:text-lg/3 lg:text-2xl font-bold md:font-normal mt-3 md:mt-0 ">Proje ve</p>
+          <p class=" text-laci md:text-4xl font-bold tracking-wider ">Tasarımlar_</p>
+          <p class="mt-0 md:mt-7 lg:mt-7 text-xs xl:text-xs/5">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Rem possimus exercitationem quos neque esse excepturi similique aperiam, pariatur aliquid dicta fugit
+            vitae numquam rerum mollitia quisquam, consequatur iure cumque non tempore distinctio odio. Quaerat animi
+            saepe dolorem, labore, ad sequi aliquam, deserunt omnis dicta dolor eius explicabo temporibus asperiores
+            cumque?</p>
+          <p class="mt-0 md:mt-4 lg:mt-4 text-xs xl:text-xs/5 ">Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit.
+            Dolore aut totam minus, iusto labore illum voluptatum iure! Repellat, aspernatur culpa?</p>
+          <button id="nextButton1" class="text-laci font-bold md:mt-4 hover:bg-gray-200 duration-500 px-1 ">→ DEVAMI </button>
+          <p id="next1_1" class="hidden md:mt-4 lg:mt-4 text-xs  xl:text-xs/5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugiat hic dolore animi sapiente aspernatur!</p>
+          <p id="next1_2" class="hidden md:mt-4 lg:mt-4 text-xs xl:text-xs/5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, assumenda!</p>
+          <button id="hiddenButton1" class="hidden text-laci font-bold md:mt-2 hover:bg-gray-200 duration-500 px-1 tracking-wider float-right ">← GİZLE</button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+
+  <!--Page 3 Section-1 PROJELER -->
+
+  <section id="projeler" class="h-184 lg:h-176 flex lg:flex-row flex-col  justify-start items-center">
+
+    <div class=" flex w-full lg:w-1/2 h-1/2 lg:h-full bg-laci text-white lg:py-28 lg:space-x-48 lg:flex-row flex-col xl:space-x-28 ">
+      <div class="flex  lg:w-1/5 h-6 lg:h-44 lg:border-b   border-white relative justify-center lg:justify-end mt-10">
+        <div class=" flex flex-col h-full lg:w-1/2 absolute container items-center">
+          <div class="flex lg:h-5/6  relative justify-center lg:items-center">
+            <p class="absolute lg:transform lg:-rotate-90 lg:text-4xl tracking-wider lg:font-light font-bold mb-10 ">PROJELER
+            </p>
+
+          </div>
+
+          <div class=" h-1/6 w-1/2 hidden lg:flex text-sm justify-center items-end">
+            <span>03</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row lg:flex-col h-full  w-full lg:w-11/20  ">
+        <div class="flex flex-col  h-full lg:h-1/3 w-1/2 pt-20  md:pt-20 lg:pt-0  ">
+          <p class=" flex font-bold md:text-4xl lg:text-2xl xl:text-4xl  tracking-wider ">YENİ MOBİL UYGULAMALARIMIZI</p>
+          <p class="flex  tracking-wider xl:text-4xl">BURADAN İNDİREBİLİRSİNİZ!</p>
+        </div>
+        <div class="flex w-1/2 h-2/3 lg:w-4/5 pt-20 lg:pt-0">
+          <p class=" text-xs md:text-sm lg:text-xs xl:text-sm xl:mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quibusdam deserunt magnam rem aliquam
+            obcaecati laboriosam libero laudantium nam in.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class=" flex w-full lg:w-1/2 h-1/2 lg:h-full bg-black text-white lg:py-28  lg:flex-row flex-col ">
+      <div class="flex flex-row lg:flex-col h-full w-full   lg:w-11/20 mx-auto  ">
+        <div class=" h-full lg:h-1/3 w-full pt-20 px-2 lg:pt-0">
+          <span class="text-laci hidden md:block">__</span>
+          <p class="font-bold md:text-4xl lg:text-2xl xl:text-sm">NEW ITEMS / OCAK 2018</p>
+          <p class="mt-2 text-xs md:text-sm lg:text-xs xl:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore accusantium, tenetur
+            veniam asperiores natus.</p>
+        </div>
+        <div class="h-full lg:h-2/3 w-4/5 pt-20 px-2 lg:pt-0">
+          <p class="font-mw md:text-4xl lg:text-2xl xl:text-3xl">2018 PROJELERİMİZİ</p>
+          <p class="md:text-4xl lg:text-2xl xl:text-3xl font-light tracking-wider">İNCELEDİNİZ Mİ!</p>
+        </div>
+      </div>
+
+      <div class="flex lg:flex-col w-full lg:w-1/6 h-1/6 lg:h-full relative justify-center ">
+        <span class=" font-bold hover:cursor-pointer pl-1">.</span>
+        <span class="font-bold hover:cursor-pointer">◯</span>
+      </div>
+    </div>
+  </section>
+  <!--Page 3 Section-2-->
+  <section class="flex bg-gray-200 h-32 justify-center lg:space-x-8 ">
+    <div
+      class="h-full w-1/3 text-sm/3  lg:w-1/5 p-2 flex flex-row space-x-6 items-center hover:bg-gray-300 cursor-pointer ">
+      <img src="./images/icons8-people-50.png" alt="" class="w-1/6 h-1/5 lg:h-1/3">
+      <div class="w-5/6 h-full">
+        <p class="text-laci hidden md:block">__</p>
+        <p class="font-bold text-laci mt-2">EKİBİMİZ</p>
+        <p class="text-xs/3 md:text-sm xl:pt-2  text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, dicta.</p>
+      </div>
+    </div>
+    <div
+      class="h-full w-1/3 text-sm/3  lg:w-1/5 p-2 flex flex-row space-x-6 items-center hover:bg-gray-300 cursor-pointer ">
+      <img src="./images/icons8-plane-50.png" alt="" class="w-1/6 h-1/5 lg:h-1/3 ">
+      <div class="w-5/6 h-full">
+        <p class="text-laci hidden md:block">__</p>
+        <p class="font-bold text-laci mt-2">TEKNOLOJİ</p>
+        <p class="text-xs/3 md:text-sm xl:pt-2 text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, dicta.</p>
+      </div>
+    </div>
+    <div
+      class="h-full w-1/3  text-sm/3  lg:w-1/5 p-2 flex flex-row space-x-6 items-center hover:bg-gray-300 cursor-pointer ">
+      <img src="./images/icons8-setting-50.png" alt="" class="w-1/6 h-1/5 lg:h-1/3">
+      <div class="w-5/6 h-full">
+        <p class="text-laci hidden md:block">__</p>
+        <p class="font-bold text-laci mt-2">AR-GE</p>
+        <p class="text-xs/3 md:text-sm xl:pt-2 text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, dicta.</p>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <!--Page 4 Section HABERLER-->
+  <section id="haberler" class="lg:pt-32 lg:pb-20 flex lg:flex-row flex-col lg:space-x-40 justify-start">
+
+  <div class="flex lg:w-36 h-6 lg:h-44 lg:border-b   border-black relative justify-center lg:justify-end md:mt-10">
+      <div class=" flex flex-col h-full lg:w-1/2 absolute container items-center">
+        <div class="flex lg:h-5/6  relative justify-center lg:items-center">
+          <p class="absolute lg:transform lg:-rotate-90 lg:text-4xl tracking-wider lg:font-light font-bold md:mb-10 ">HABERLER
+          </p>
+
+        </div>
+
+        <div class=" h-1/6 w-1/2 hidden lg:flex text-sm justify-center items-end">
+          <span>04</span>
+        </div>
+      </div>
+    </div>
+    <div class="md:flex w-full lg:w-3/5 h-80  py-1 md:py-10 lg:py-0 md:px-2 ">
+
+      <div class=" md:w-11/20 h-1/2 md:h-full lg:h-4/5 xl:h-full bg-gray-200 mx-1 md:mx-0"></div>
+
+      <div class=" w-full md:w-9/20 h-1/2 md:h-full px-2 py-2 lg:py-0 md:pl-12 overflow-hidden " id="mainCard">
+        <p class="font-bold update">10 OCAK 2018</p>
+        <p class=" text-laci hidden xl:block ">__</p>
+        <p class=" md:mt-7 lg:mt-3 xl:mt-7 text-xs xl:text-sm font-bold update ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, in?</p>
+        <p class="md:mt-4 lg:mt-1 xl:mt-4 text-xs xl:text-sm update ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, tempora?</p>
+        <button id="nextButton2" class="text-laci font-bold md:mt-4 hover:bg-gray-200 duration-500 px-1">→ DEVAMI </button>
+          <p id="next2_1" class="hidden  md:mt-4 lg:mt-4 text-xs xl:text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis consequuntur, quo aspernatur iste voluptas.</p>
+        <button id="hiddenButton2" class="hidden text-laci font-bold md:mt-4 hover:bg-gray-200 duration-500 px-1 tracking-wider float-right ">← GİZLE</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Page 4 Section 2 -->
+  <section class="flex h-48 pb-8 justify-center space-x-8  items-center">
+    <div
+      class="h-5/6 w-1/3 text-sm/3  lg:w-1/5 p-2 flex flex-row items-center hover:bg-laci cursor-pointer bg-gray-100  group custom-card">
+      <div class="w-5/6 h-full mx-auto ">
+        <p class="font-bold group-hover:text-white  mt-4 text-xs/3 card-text inline-block ">15 ŞUBAT 2018</p> <span
+        class="text-gray-500 ml-6 group-hover:text-white hidden md:inline text-xs/3 font-bold ">ADMIN</span>
+        <p class="text-laci group-hover:text-white hidden md:block">__</p>
+        <p class=" text-xs/3 lg:text-sm font-bold mt-2 xl:mt-6 group-hover:text-white card-text">Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit.</p>
+      </div>
+    </div>
+    <div
+    class="h-5/6 w-1/3 text-sm/3  lg:w-1/5 p-2 flex flex-row items-center hover:bg-laci cursor-pointer bg-gray-100  group custom-card">
+    <div class="w-5/6 h-full mx-auto ">
+      <p class="font-bold group-hover:text-white  mt-4 text-xs/3 card-text inline-block ">23 MART 2018</p> <span
+      class="text-gray-500 ml-6 group-hover:text-white hidden md:inline text-xs/3 font-bold ">ADMIN</span>
+      <p class="text-laci group-hover:text-white hidden md:block">__</p>
+      <p class=" text-xs/3 lg:text-sm font-bold mt-2 xl:mt-6 group-hover:text-white card-text">Amet impedit at deserunt debitis eaque, illo  quas asperiores?</p>
+    </div>
+  </div>
+  <div
+  class="h-5/6 w-1/3 text-sm/3  lg:w-1/5 p-2 flex flex-row items-center hover:bg-laci cursor-pointer bg-gray-100  group custom-card">
+  <div class="w-5/6 h-full mx-auto ">
+    <p class="font-bold group-hover:text-white  mt-4 text-xs/3 card-text inline-block ">27 NİSAN 2018</p> <span
+    class="text-gray-500 ml-6 group-hover:text-white hidden md:inline text-xs/3 font-bold ">ADMIN</span>
+    <p class="text-laci group-hover:text-white hidden md:block">__</p>
+    <p class=" text-xs/3 lg:text-sm font-bold mt-2 xl:mt-6 group-hover:text-white card-text">Inventore quod eius quaerat veniam hic error veritatis voluptatibus!</p>
+  </div>
+</div>
+
+
+
+  </section>
+
+
+
+  <!--Page 5 Section İLETİŞİM-->
+  <section id="iletisim" class="h-224 lg:h-184 flex lg:flex-row flex-col ">
+
+    <div class=" flex w-full lg:w-1/2 h-1/2 lg:h-full bg-black text-white lg:py-28 lg:space-x-48 lg:flex-row flex-col ">
+
+      <div class="flex  lg:w-36 h-6 lg:h-44 lg:border-b   border-white relative justify-center lg:justify-end">
+        <div class=" flex flex-col h-full lg:w-1/2 absolute container items-center">
+          <div class="flex lg:h-5/6  relative justify-center lg:items-center">
+            <p class="absolute lg:transform lg:-rotate-90 lg:text-4xl tracking-wider lg:font-light font-bold ">İLETİŞİM
+            </p>
+
+          </div>
+
+          <div class=" h-1/6 w-1/2 hidden lg:flex text-sm justify-center items-end">
+            <span>05</span>
+          </div>
+        </div>
+      </div>
+      <div class="w-64 lg:w-80 container mx-auto lg:mx-0">
+        <form action="">
+          <div class="flex w-full pt-10 lg:text-4xl font-bold">Mesaj Gönder _</div>
+          <input type="text"
+            class="mt-4 lg:mt-8 w-full bg-transparent border-b border-gray-700 outline-none placeholder:text-sm  pb-2"
+            placeholder="Adınız Soyadınız">
+          <input type="text"
+            class="mt-1 lg:mt-5 w-full bg-transparent border-b border-gray-700 outline-none placeholder:text-sm  pb-2"
+            placeholder="Email Adres">
+          <input type="text"
+            class="mt-1lg:mt-5 w-full bg-transparent border-b border-gray-700 outline-none placeholder:text-sm  pb-2"
+            placeholder="Konu">
+          <input type="text"
+            class="mt-1lg:mt-5 w-full bg-transparent border-b border-gray-700 outline-none placeholder:text-sm pb-2 h-16 lg:h-28"
+            placeholder="Mesajınız">
+          <button class="bg-laci py-1 px-4 text-sm mt-10 "> → GÖNDER</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="w-full lg:w-1/2 h-1/2 lg:h-full bg-laci text-white lg:py-28">
+      <div class="  w-3/5 h-full  md:h-full mx-auto overflow-hidden ">
+        <p class="hidden lg:inline">__</p>
+        <p class="  font-bold tracking-wider mt-2 text-xs">YÖNETİM ADRES</p>
+        <p class="mt-1 lg:mt-2 text-xs ">Mahallesi Mah. Cadde Cad.</p>
+        <p class="text-xs ">Maslak / İstanbul / TÜRKİYE</p>
+        <p class="text-xs font-bold tracking-widest mt-4">TELEFON</p>
+        <p class="mt-1 text-xs ">(+90) 216 255 10 55</p>
+        <p class="hidden lg:inline">__</p>
+        <p class="mt-4  font-bold tracking-widest text-xs">FABRİKA ADRES</p>
+        <p class="mt-1 lg:mt-2 text-xs ">6. Organize Sanayi Bölgesi 2. Cadde No:20</p>
+        <p class="text-xs ">Ümraniye / İstanbul / TÜRKİYE</p>
+        <p class="text-xs font-bold tracking-widest mt-4">TELEFON</p>
+        <p class="mt-1 text-xs ">(+90) 245 11 24</p>
+        <p class="hidden lg:inline">__</p>
+        <p class=" mt-4 font-bold tracking-widest text-xs">EMAIL - WEB</p>
+        <p class="mt-1 lg:mt-2 text-xs ">info@domain.com - www.domain.com</p>
+        <p class="hidden lg:inline">__</p>
+        <p class="mt-4 lg:mt-2 font-bold tracking-widest text-xs">SOSYAL MEDYA</p>
+        <p class="mt-1 lg:mt-1  text-xs ">FACEBOOK</p>
+        <p class="mt-2 lg:mt-1  text-xs ">TWITTER</p>
+        <p class="mt-2 lg:mt-1  text-xs ">LINKEDIN</p>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <script src="./js/script.js" ></script>
+</body>
+
+</html>
